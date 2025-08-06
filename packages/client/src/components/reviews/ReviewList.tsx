@@ -31,7 +31,7 @@ const ReviewList = ({ productId }: Props) => {
 
    useEffect(() => {
       fetchReviews();
-   });
+   }, []);
 
    return (
       <div className="flex flex-col gap-5">
